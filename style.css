@@ -1,0 +1,36 @@
+body {
+  background: linear-gradient(
+    90deg in oklab,
+    rgb(38, 38, 94),
+    rgb(149, 82, 82)
+  );
+  padding: 0px;
+  margin: 0px;
+  font-family: "Press Start 2P", cursive;
+}
+.container {
+  height: 100vh;
+  border-style: dotted;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: dotted;
+}
+.play-button {
+  margin: 20px;
+  padding: 10px;
+  max-width: 100px;
+  color: aliceblue;
+  border-radius: 9px;
+  border-style: solid;
+  background-color: rgba(39, 39, 63, 0.712);
+  border-color: rgb(0, 0, 0);
+  max-width: 140px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 20px;
+}
+.heading-title {
+  color: #0f0d10;
+}

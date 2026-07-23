@@ -30,7 +30,28 @@ body {
   max-width: 140px;
   font-family: "Press Start 2P", cursive;
   font-size: 20px;
+  cursor: pointer;
 }
 .heading-title {
   color: #0f0d10;
+  max-width: 100vh;
+}
+.content {
+  margin-top: 50px;
+  padding: 20px;
+  color: #0d014e;
+  height: 100px;
+  display: flex;
+  border-style: dotted;
+  align-items: center;
+  justify-content: center;
+}
+.unknown {
+  width: 120px;
+  height: 130px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 90px;
+  background-color: #4f3550;
+  color: rgb(117, 130, 117);
+  border-radius: 25px;
 }
